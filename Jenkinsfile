@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker build -f myreactapp .'
+        sh 'docker build -f ./myreactapp .'
       }
     }
 
