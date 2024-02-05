@@ -22,7 +22,7 @@ function Content() {
         </div>
         <div className="Content-projects">
             <div className="Content-projects_text">
-               CURRENT PROJECTS (4)
+               CURRENT PROJECTS (3)
             </div>
             <div className="Content-projects_list">
                 <Card category={["Dev","Design"]} title={"Chat app"} par={"This application is created to make users life easier"} param={["4/1","4"]}/>
@@ -31,7 +31,7 @@ function Content() {
             </div>
         </div>
         <div className="Content-Allocations">
-
+            
         </div>
     </div>
   )
